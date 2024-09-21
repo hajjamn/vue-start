@@ -1,8 +1,8 @@
 <script>
 import { store } from './store.js'
-import AppHeader from './components/AppHeader.vue'
-import AppContent from './components/AppContent.vue'
-import AppFooter from './components/AppFooter.vue'
+import AppHeader from './layout/AppHeader.vue'
+import AppContent from './layout/AppContent.vue'
+import AppFooter from './layout/AppFooter.vue'
 
 export default {
   components: {
@@ -16,8 +16,8 @@ export default {
     }
   }
 }
-
 </script>
+
 
 <template>
 
