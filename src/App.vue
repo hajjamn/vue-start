@@ -1,33 +1,29 @@
 <script>
-import { store } from './store.js'
-import AppHeader from './layout/AppHeader.vue'
-import AppContent from './layout/AppContent.vue'
-import AppFooter from './layout/AppFooter.vue'
+import { store } from './store.js';
+import AppHeader from './layout/AppHeader.vue';
+import AppContent from './layout/AppContent.vue';
+import AppFooter from './layout/AppFooter.vue';
 
 export default {
   components: {
     AppHeader,
     AppContent,
-    AppFooter,
+    AppFooter
   },
   data() {
     return {
-      store,
-    }
+      store
+    };
   }
-}
+};
 </script>
 
-
 <template>
-
-  <AppHeader></AppHeader>
-  <AppContent></AppContent>
-  <AppFooter></AppFooter>
-
+  <AppHeader />
+  <AppContent />
+  <AppFooter />
 </template>
 
 <style lang="scss">
 @use './assets/style/general.scss';
-@use 'bootstrap'
 </style>
